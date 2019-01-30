@@ -24,4 +24,8 @@ export class HomepageComponent implements OnInit {
     let characters = this.myService.getCharacters;
 
   }
+
+  sorting() {
+
+  }
 }

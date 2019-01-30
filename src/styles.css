@@ -10,3 +10,16 @@ body {
 h1 {
     color: white;
 }
+a {
+    color: white;
+}
+button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 3px;
+    background-color: limegreen;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: cursive, serif;
+}
