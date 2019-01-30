@@ -1,1 +1,12 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    background-image: url("./assets/hp-background.jpg");
+    color: white;
+}
+.main-panel {
+    background-color: rgba(3, 3, 3, 0.534);
+    text-align: center;
+}
+
+h1 {
+    color: white;
+}
