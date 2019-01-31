@@ -2,7 +2,8 @@
     "characters": [
         {
             "name": "Hermione Granger",
-            "characteristics": "smart"
+            "characteristics": "smart",
+            "house": ""
         }
     ]
 }

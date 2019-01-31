@@ -11,7 +11,7 @@
       <label>Characteristics</label>
       <input #newCharacteristics>
     </div>
-    <button (click)="submitForm(newName.value, newCharacteristics.value)">Create</button>
+    <button (click)="submitForm(newName.value, newCharacteristics.value); newName.value=''; newCharacteristics.value='' ">Create</button>
   </div>
   <div *ngFor="let character of characters | async" routerLink="sorting-hat">
     <p>{{character.name}} is {{character.characteristics}}</p>
